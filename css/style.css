@@ -1,30 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 *{
-    margin: 0 auto;
+    margin: 0 ;
     padding: 0;
     box-sizing: border-box;
 }
 
-#menu-h ul{
-    list-style-type: none;
-    padding: 0;  
-    background-color:#424040;
-  
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    background-color: rgb(12, 92, 86);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+
 }
-#menu-h ul li{
-    display: inline;
+.logo-imagem{
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    border-radius: 25px;
+    align-items: center;
 }
-#menu-h ul li a{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    color: aliceblue;
-    padding: 20px;
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-texto{
+    margin-left: 20px;
+}
+.menu li{
+    border-radius: 25px;
     display: inline-block;
-    text-decoration: none; 
-    transition: .1s;
+    margin: 0 10px;
+    
 }
-#menu-h ul li :hover{
-    color: #85d9eb;
-  
+.menu li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #0d0d0d;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.menu li a:hover{
+    background-color: rgb(50, 50, 49);
+
 }
